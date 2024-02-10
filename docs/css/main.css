@@ -51,8 +51,11 @@ body {
   }
 
 .box1 {
-    background-image: url('../img/1wotxt.jpg');
-    height: 1060px;
+    height: 1080px;
+    width: 100%;
+    background: url('../img/1wotxt.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 1920px 1200px;
 }
 
 .box2 {
