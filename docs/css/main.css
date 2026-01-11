@@ -41,6 +41,16 @@ body {
     /* padding: 10px; */
   }
 
+/* responsive image */
+.responsive-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+}
+
 .box1 {
   background: none;
   width: min(100%, 1100px);
