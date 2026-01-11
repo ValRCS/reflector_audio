@@ -41,15 +41,48 @@ body {
     /* padding: 10px; */
   }
 
+.box1 {
+  background: none;
+  width: min(100%, 1100px);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: clamp(14px, 2.5vw, 28px);
+  padding: clamp(24px, 4vw, 48px);
+}
+
+/* centered text block */
+.box1-text {
+  max-width: 60ch;
+  text-align: center;
+}
+
+.box1-text h3 {
+  margin: 0 0 0.5em 0;
+  font-size: clamp(1.4rem, 1.4rem + 1vw, 2.2rem);
+  line-height: 1.1;
+}
+
+.box1-text p {
+  margin: 0;
+  font-size: clamp(1rem, 0.95rem + 0.4vw, 1.15rem);
+  line-height: 1.4;
+}
+
+/* responsive image */
+.box1-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+}
 
   
-.box1 {
-    height: 1060px;
-    width: 100%;
-    background: url('../img/1wotxt.jpg') no-repeat;
-    background-position: 50% 50%;
-    background-size: 1400px 1060px;
-}
 
 .box2 {
   background: none;
